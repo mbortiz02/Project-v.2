@@ -1,0 +1,105 @@
+
+/* Color References
+Green: #0B8B54
+Yellow: #DCB70C
+White: #EBF0E4
+Blue: #013282
+Red: #AC1308 */
+
+/* Text Styles
+Primary: Merriweather
+Secondary Inter */
+
+
+.navbar {
+    background-color: #0B8B54;
+    overflow: hidden;
+    color: white;
+}
+
+.nav-item .nav-link {
+    color: black !important; 
+    padding: 14px 20px !important;
+    text-decoration: none !important;
+    font-family: 'Inter', sans-serif; /* Use Inter font for nav links */
+}
+
+.custom-button {
+    background-color: #DCB70C;
+    color: black;
+    margin: 10px; /* Add spacing around the buttons */
+}
+
+.active-page {
+    background-color: #007bff; /* Change to your desired color */
+    color: white; /* Text color for contrast */
+    border: 1px solid #0056b3; /* Optional: Add a border for better visibility */
+}
+
+.active-page:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+}
+
+#blackBoxCarousel .carousel-item img {
+    width: 80%; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin: 0 auto; /* Centers the image horizontally */
+    border: 20px; /* Add a white border with a thickness of 5px */
+}
+
+.carousel-container {
+    padding: 20px; /* Adjust the padding as needed */
+}
+
+.subject-of-page {
+
+    font-family: 'Merriweather', serif;
+    font-size: 2em; /* Adjust the font size as needed */
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Add some space above the text */
+}
+
+body {
+    padding-bottom: 100px; /* Adds 100px of space at the bottom */
+    font-family: 'Merriweather', serif;
+}
+
+.full-width {
+    width: 100%; /* Make the div span the full width of the page */
+    padding: 50px; /* Add padding inside the element */
+    box-sizing: border-box; /* Ensure padding doesn't affect the total width */
+    background-color: #013282; /* Background color */
+    color: white; /* Text color for better visibility */
+    border: 20px solid white; /* Add a white border with a thickness of 5px */
+    border-radius: 30px; /* Optional: Add rounded corners */
+}
+
+.col-md-12 {
+    font-family: 'Merriweather', serif;
+    font-size: large; /* Adjust the font size as needed */
+}
+
+.footer-bar {
+    position: fixed; /* Keeps the footer at the bottom of the viewport */
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Makes the footer span the entire width of the page */
+    background-color: #f8f9fa; /* Light gray background (adjust as needed) */
+    background-color: #0B8B54;
+    font-family: 'inter', sans-serif; /* Use Inter font for footer text */
+    color: white; /* Text color for better visibility */
+    text-align: center; /* Centers the text */
+    padding: 10px 0; /* Adds some padding for better appearance */
+    border-top: 1px solid #ddd; /* Optional: Adds a top border for separation */
+}
+
+
+
