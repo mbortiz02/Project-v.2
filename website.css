@@ -87,6 +87,11 @@ body {
     font-size: large; /* Adjust the font size as needed */
 }
 
+.col-md-12 {
+    font-family: 'Merriweather', serif;
+    font-size: large; /* Adjust the font size as needed */
+}
+
 .footer-bar {
     position: fixed; /* Keeps the footer at the bottom of the viewport */
     bottom: 0;
